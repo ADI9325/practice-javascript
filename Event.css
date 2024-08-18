@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Default Light Mode */
+body.light-mode {
+    background-color: white;
+    color: black;
+
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: black;
+    color: white;
+    
+}
+
+.toggle-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #4794ae;
+    color: white;
+    font-size: 16px;
+}
